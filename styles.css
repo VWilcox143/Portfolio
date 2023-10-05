@@ -1,3 +1,18 @@
 body{
-    background-color: bisque; 
+    background-color: rgb(61, 4, 105); 
+}
+
+.titleFormat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    color: white;
+    text-shadow: 10px 10px 10px red;
+}
+
+nav .btn {
+    color: red
 }
