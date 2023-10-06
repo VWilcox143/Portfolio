@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(61, 4, 105); 
+    background-color:blueviolet;
 }
 
 .titleFormat {
@@ -14,5 +14,16 @@ h1 {
 }
 
 nav .btn {
+    font-size: 50px;
     color: red
+}
+
+#navBar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#profPic {
+    display: flex;
+    align-content: center;
 }
