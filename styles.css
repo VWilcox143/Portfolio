@@ -1,5 +1,5 @@
 body{
-    background-color:blueviolet;
+    background-color:rgb(95, 87, 102);
 }
 
 .titleFormat {
@@ -23,7 +23,52 @@ nav .btn {
     justify-content: space-evenly;
 }
 
+a:hover {
+    color: yellow;
+    background-color: purple;
+    border-style:groove;
+}
+
+
+
+
 #profPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 25%;
+    border-style:dashed;
+    border-color: black;
+    border-width: 10px;
+}
+
+p {
+    color: black;
+    font-size: 30px;
+    text-align: justify;
+    background-color: white;
+    border-style: solid;
+    border-width: 5px;
+    }
+
+.introStuff {
     display: flex;
-    align-content: center;
+    flex-wrap: nowrap;
+    
+
+}
+
+.aboutMe {
+    position: relative;
+    text-align: center;
+    
+}
+
+.centered {
+    position: absolute;
+    top: 50%;   
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
 }
