@@ -85,13 +85,14 @@ p {
     
 }
 
-.centered {
+#centered {
     position: absolute;
     top: 50%;   
     left: 50%;
     transform: translate(-50%, -50%);
     width: 700px;
     height: 700px;
+    
 }
 
 
@@ -107,7 +108,7 @@ p {
     }
 }
 
-#para2, #para1 {
+#para2, #para1, #centered {
     animation: fadeIn 6s;
 }
 
@@ -123,4 +124,30 @@ p {
     
 }
 
+#thumbsUp {
+    animation: fadeOut 4s;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    to {
+        opacity: .3
+    }
+
+}
 /* Learned keyframes from W3 schools. Learned the rotation stuff from this youtube video: https://www.youtube.com/watch?v=HZHHBwzmJLk */
+
+.pinJuggle {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
