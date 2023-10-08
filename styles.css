@@ -16,14 +16,20 @@ h1 {
 
 .btn {
     font-size: 30px;
+    cursor: pointer;
+    box-shadow: 10px 20px black;
+    border-radius: 15px
+
 }
 .navBar a {
     display: inline-block;
     color: orangered;
+    background-color: blue;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 20px;
     text-decoration: none;
     text-decoration:underline;
+    
 }
 
 a:hover {
@@ -32,6 +38,15 @@ a:hover {
     border-style:groove;
     text-decoration: none;
 }
+
+a:active {
+    background-color: black;
+    box-shadow: 6px 15px gray;
+    transform: translateY(4px)
+
+}
+
+/* I got the button animation basics from the W3 schools web-site. Actually that's where I've learned most of the  */
 
 #profPic {
     display: block;
@@ -42,6 +57,8 @@ a:hover {
     border-style:dashed;
     border-color: black;
     border-width: 10px;
+    animation: rotate 4s;
+    
 }
 
 p {
@@ -51,6 +68,7 @@ p {
     background-color: white;
     border-style: solid;
     border-width: 5px;
+    
     }
 
 #introStuff {
@@ -71,5 +89,34 @@ p {
     transform: translate(-50%, -50%);
     width: 700px;
     height: 700px;
+}
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-45deg);
+    }
+    to {
+        transform: rotate(720deg);
+    }
+}
+
+#para2, #para1 {
+    animation: fadeIn 6s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+
+    
 }
 
