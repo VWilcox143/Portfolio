@@ -1,3 +1,6 @@
+/* I realize everything is pretty disorganized, but that's because I've just been adding things as I think of it or learn something new. Every time I've learned a new thing I've had the urge to just get rid of the whole thing and start from scratch, but I wouldn't be doing myself any favors then because I at least need SOMETHING to turn in, even if it is a pile of crap. I am learning though, getting into the swing of it. I just need to practice more and gain some confidence. I am prepared for sub-par points on the project though, for sure. */
+
+
 body{
     background-color:rgb(95, 87, 102);
 }
@@ -46,7 +49,7 @@ a:active {
 
 }
 
-/* I got the button animation basics from the W3 schools web-site. Actually that's where I've learned most of the  */
+/* I got the button animation basics from the W3 schools web-site. Actually that's where I've learned most of the things I've used.   */
 
 #profPic {
     display: block;
@@ -120,3 +123,4 @@ p {
     
 }
 
+/* Learned keyframes from W3 schools. Learned the rotation stuff from this youtube video: https://www.youtube.com/watch?v=HZHHBwzmJLk */
