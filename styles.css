@@ -44,7 +44,7 @@ a:hover {
 
 a:active {
     background-color: black;
-    box-shadow: 6px 15px gray;
+    box-shadow: 4px 10px gray;
     transform: translateY(4px)
 
 }
@@ -151,3 +151,5 @@ p {
     margin-right: auto;
 
 }
+
+/* This was my attempt to center the video on the Past Projects section.  */
